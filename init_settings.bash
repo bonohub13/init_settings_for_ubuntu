@@ -18,7 +18,7 @@ echo "alias shutdown='sudo shutdown now'" >> ~/.bashrc
 echo "alias reboot='sudo reboot now'" >> ~/.bashrc
 echo "alias vimrc='vim ~/.vimrc'" >> ~/.bashrc
 echo "alias bashrc='vim ~/.bashrc'" >> ~/.bashrc
-# echo "alias code='code-insiders'" # use when you want to use vscode-insiders instead of vscode
+echo "# alias code='code-insiders'" >> ~/.bashrc # use when you want to use vscode-insiders instead of vscode
 echo " " >> ~/.bashrc
 
 echo "# ===== python settings ======" >> ~/.bashrc

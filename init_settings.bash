@@ -6,7 +6,7 @@ sudo apt upgrade -y
 
 ########## install packages ###########
 sudo apt install python3 python -y
-sudo apt install pythoh3-pip python-pip python3-venv -y
+sudo apt install python3-pip python-pip python3-venv -y
 sudo apt install vim -y
 sudo apt install jupyter-notebook -y
 sudo apt install gcc g++ -y
@@ -14,6 +14,8 @@ sudo apt install gcc g++ -y
 
 ########## optimize .bashrc settings ##########
 echo "########## added lines ##########" >> ~/.bashrc
+echo "# chmod -R +x /enter_filename/" >> ~/.bashrc
+echo "alias mkdir='mkdir -p'" >> ~/.bashrc
 echo "alias cls='clear'" >> ~/.bashrc
 echo "alias shutdown='sudo shutdown now'" >> ~/.bashrc
 echo "alias reboot='sudo reboot now'" >> ~/.bashrc

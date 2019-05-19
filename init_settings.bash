@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/usr/bin/env bash
 ### Enter "source init_settings.bash" in bash to activate this file ###
 
 sudo apt update

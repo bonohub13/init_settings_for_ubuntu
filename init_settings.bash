@@ -32,8 +32,6 @@ echo "alias jupyter='jupyter-notebook'" >> ~/.bashrc
 echo " " >> ~/.bashrc
 
 echo "# ===== c/c++ settings ======" >> ~/.bashrc
-echo "alias gcc='gcc -o'" >> ~/.bashrc
-echo "alias gpp='g++ -o'" >> ~/.bashrc
 echo "#################################" >> ~/.bashrc
 ###############################################
 

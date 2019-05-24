@@ -2,7 +2,7 @@
 ### Enter "source init_settings.bash" in bash to activate this file ###
 
 sudo apt update
-sudo apt upgrade -y
+# sudo apt upgrade -y
 
 ########## install packages ###########
 sudo apt install python3 python -y
@@ -39,4 +39,4 @@ echo "#################################" >> ~/.bashrc
 source ~/.bashrc
 
 sudo apt update
-sudo apt upgrade -y
+# sudo apt upgrade -y

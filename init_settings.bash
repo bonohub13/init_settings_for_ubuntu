@@ -2,14 +2,17 @@
 ### Enter "source init_settings.bash" in bash to activate this file ###
 
 sudo apt update
-# sudo apt upgrade -y
+sudo apt upgrade -y
 
 ########## install packages ###########
-sudo apt install python3 python -y
-sudo apt install python3-pip python-pip python3-venv -y
-sudo apt install vim -y
-sudo apt install jupyter-notebook -y
-sudo apt install gcc g++ -y
+sudo apt install -y python3 \
+					python3-pip \
+					python3-venv \
+					vim \
+					gcc \
+					g++ \
+					jupyter-notebook \
+					terminator
 #######################################
 
 ########## optimize .bashrc settings ##########

@@ -14,14 +14,13 @@ sudo apt install -y python3 \
 					jupyter-notebook \
 					terminator
 #######################################
-
 ########## optimize .bashrc settings ##########
 echo "########## added lines ##########" >> ~/.bashrc
 echo "# chmod -R +x /enter_filename/" >> ~/.bashrc
 echo "alias mkdir='mkdir -p'" >> ~/.bashrc
 echo "alias cls='clear'" >> ~/.bashrc
-echo "alias shutdown='sudo shutdown now'" >> ~/.bashrc
-echo "alias reboot='sudo reboot now'" >> ~/.bashrc
+echo "alias shutdown='systemctl poweroff -i'" >> ~/.bashrc
+echo "alias reboot='systemctl reboot -i'" >> ~/.bashrc
 echo "alias vimrc='vim ~/.vimrc'" >> ~/.bashrc
 echo "alias bashrc='vim ~/.bashrc'" >> ~/.bashrc
 echo "# alias code='code-insiders'" >> ~/.bashrc # use when you want to use vscode-insiders instead of vscode
